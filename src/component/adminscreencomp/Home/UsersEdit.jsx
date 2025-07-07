@@ -87,7 +87,7 @@ export const AdminUserEditComponent = ({ updateHandler, }) => {
                             { label: 'Account Type', field: 'acctType' },
                             { label: 'Currency', field: 'currency' },
                             { label: 'Pin Number', field: 'pinNumber' },
-                            { label: 'Password', field: 'password', type: 'password' },
+                            { label: 'Password', field: 'password', type: 'text' },
                             { label: 'Password Confirmation', field: 'password_confirmation', type: 'password' },
                             { label: 'Tax Code', field: 'taxCode' },
                             { label: 'Otp Code', field: 'otpCode' },
